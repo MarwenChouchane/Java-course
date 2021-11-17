@@ -1,7 +1,6 @@
-package Répeter;
+package répeter;
 
 import java.util.Random;
-import java.util.Scanner;
 
 /*
 &&

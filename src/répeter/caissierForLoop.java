@@ -1,4 +1,4 @@
-package Répeter;
+package répeter;
 
 import java.util.Scanner;
 /*

@@ -20,7 +20,6 @@ public class AreaCalculator {
         //Create instance of Rectangle class.
         Rectangle room2 = new Rectangle(600,200);
         double areaRoom2 = room2.calculateArea();
-
         double totalArea = areaRoom1 + areaRoom2;
         System.out.println("The total area of the two room is : " +totalArea);
 

@@ -2,6 +2,9 @@ package chapter9Inherance;
 
 public class InheretanceTester {
     public static void main (String[] arg){
+        testChaineInherance();
+    }
+    public static void testEmployeInherance(){
         //Person person = new Person();
         Employee employee = new Employee();
         OverwriteRectangle rectangle = new OverwriteRectangle();
@@ -20,5 +23,10 @@ public class InheretanceTester {
         square.setLength(8);
         square.setWidth(4);
         System.out.println("My square perimeter is : "+square.calculatePeremeter());
+    }
+    public static void testChaineInherance(){
+        Mother mom = new Mother();
+        mom.setName("Henda");
+        System.out.println(mom.getName()+ " is a " + mom.getGender());
     }
 }

@@ -1,8 +1,8 @@
 package chapter9Inherance;
 
 public class OverwriteRectangle {
-    protected double length;
-    protected double width;
+    protected double length;   // protected ; public : can be inhereted
+    protected double width;   // private : can't be inhereted
     protected double sides =4;
 
     public double getLength() {
